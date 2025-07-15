@@ -27,7 +27,7 @@ const SettingsModal = ({ apiKey, setApiKey, systemMessage, setSystemMessage }) =
         <div className="grid gap-4 py-4">
           <div className="grid grid-cols-4 items-center gap-4">
             <label htmlFor="openaiApiKey" className="text-right">
-              OpenAI API Key
+              Gemini API Key
             </label>
             <Input
               id="openaiApiKey"

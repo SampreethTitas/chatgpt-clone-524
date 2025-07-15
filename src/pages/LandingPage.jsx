@@ -17,11 +17,11 @@ const LandingPage = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 to-purple-500 text-white p-4">
       <h1 className="text-4xl font-bold mb-6">Welcome to AI Chat</h1>
-      <p className="text-xl mb-8 text-center">Experience the power of AI-driven conversations. To get started, please enter your OpenAI API key.</p>
+      <p className="text-xl mb-8 text-center">Experience the power of AI-driven conversations. To get started, please enter your Gemini API key.</p>
       <form onSubmit={handleSubmit} className="w-full max-w-md">
         <Input
           type="password"
-          placeholder="Enter your OpenAI API key"
+          placeholder="Enter your Gemini API key"
           value={apiKey}
           onChange={(e) => setApiKey(e.target.value)}
           className="mb-4 text-black"
